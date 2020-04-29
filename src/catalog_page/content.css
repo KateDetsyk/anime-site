@@ -1,4 +1,4 @@
-body {
+.body {
     background-color: rgb(39, 39, 39);
 }
 
@@ -37,19 +37,22 @@ tr {
 
 .simpleCatalog {
     width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
 }
 .simpleCatalog td {
     position: relative;
 }
 
-td, th {
+td {
     padding: 0;
 }
 
 img {
     vertical-align: middle;
+    border-radius: 4px;
 }
 
-img {
-    border: 0;
-}
+/* img {
+    border-radius: 4px;
+} */
