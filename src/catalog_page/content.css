@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(39, 39, 39);
+}
+
+
+.header {
+    height: 215px;
+    background: url(../img/header.jpg);
+    background-repeat: no-repeat;
+}
+.content {
+    margin-top: 10px;
+    width: 880px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    background-color: rgb(39, 39, 39);
+}
+
+table {
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.simpleCatalog {
+    width: 100%;
+}
+.simpleCatalog td {
+    position: relative;
+}
+
+td, th {
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
