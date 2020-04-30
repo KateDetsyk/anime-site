@@ -42,17 +42,14 @@ tr {
 }
 .simpleCatalog td {
     position: relative;
-}
-
-td {
     padding: 0;
 }
+
+/* td {
+    padding: 0;
+} */
 
 img {
     vertical-align: middle;
     border-radius: 4px;
 }
-
-/* img {
-    border-radius: 4px;
-} */
