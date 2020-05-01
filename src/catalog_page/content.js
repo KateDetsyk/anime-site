@@ -8,6 +8,7 @@ import logo3 from '../img/logo3.jpg'
 import logo4 from '../img/logo4.jpg'
 import logo5 from '../img/logo5.jpg'
 import Navigation from '../navigation/navigation';
+import Search from '../search-bar/search';
 
 
 
@@ -21,6 +22,7 @@ export default class Content extends React.Component {
            
         <div className="content">
         <Navigation></Navigation>
+        <Search></Search>
             <table className="simpleCatalog" width="100%">
             <tbody>
                 <tr>

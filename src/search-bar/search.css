@@ -1,0 +1,40 @@
+.wrapper{
+    margin-top: 10px;
+    width: 880px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    background: rgb(0, 130, 126);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.wrapper .input {
+    width: 90%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: medium;
+    outline:none;
+    
+}
+
+.searchbtn {
+    background: url(../img/search.png);
+    background-size: 40px;
+    background-repeat: no-repeat;
+    width: 7%;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}

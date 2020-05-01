@@ -9,7 +9,7 @@ export default class Header extends React.Component {
 
     render() {
         return (
-        <div className='header'></div>
+        <div className='header'><p>SHINIGAMI-ANIME</p></div>
         );
     }
 }
