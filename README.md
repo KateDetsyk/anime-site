@@ -1,3 +1,8 @@
+## Site is deployed on Heroku
+[https://shinigami-anime.herokuapp.com/]
+
+Only first page is working now.<br />
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
