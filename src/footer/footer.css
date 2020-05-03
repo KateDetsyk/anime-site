@@ -53,6 +53,7 @@
 }
 
 .footer-right p {
+    background-color: transparent;
     font-family: 'PT Sans', sans-serif;
     float: left;
     font-size: 13px;
