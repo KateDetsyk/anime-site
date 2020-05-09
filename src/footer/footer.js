@@ -19,9 +19,9 @@ export default class Footer extends React.Component {
 
                 </ul>
                 <p>
-                Just an anime site. 
-                Currently in the development phase.<br></br>
-                Links and buttons aren't working yet. 
+                    Just an anime site. 
+                    Currently in the development phase.<br></br>
+                    Links and buttons aren't working yet. 
                 </p>
             </div>
         </div>

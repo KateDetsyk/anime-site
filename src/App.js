@@ -3,11 +3,8 @@ import React from 'react';
 import './App.css';
 
 import Content from './catalog_page/content';
-// import Ongoing from './ongoing_page/ongoing';
-import Header from './header';
-import Side from './side-component/side';
+import Header from './header/header';
 import Footer from './footer/footer';
-import Search from './search-bar/search';
 
 function App() {
   

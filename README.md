@@ -1,5 +1,5 @@
 ## Site is deployed on Heroku
-[https://shinigami-anime.herokuapp.com/]
+https://shinigami-anime.herokuapp.com/
 
 Only first page is working now.<br />
 

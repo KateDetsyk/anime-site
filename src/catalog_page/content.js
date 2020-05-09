@@ -11,15 +11,11 @@ import Navigation from '../navigation/navigation';
 import Search from '../search-bar/search';
 
 
-
-// import TodoItem from './todo-item';
-
 export default class Content extends React.Component {
 
     render() {
         return (
         <div className="body">
-           
         <div className="content">
         <Navigation></Navigation>
         <Search></Search>

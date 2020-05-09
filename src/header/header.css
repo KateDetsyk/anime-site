@@ -1,10 +1,10 @@
 .header {
     height: 215px;
-    background: url(./img/h3.jpg);
+    background: url(../img/h3.jpg);
     background-repeat: no-repeat;
 }
 
-p {
+.header p {
     background-color: rgba(255, 255, 255, 0);
     position: relative;
     float: right;

@@ -2,7 +2,6 @@
     background-color: rgb(39, 39, 39);
 }
 
-
 .header {
     height: 215px;
     background: url(../img/header.jpg);
@@ -17,39 +16,33 @@
     background-color: rgb(39, 39, 39);
 }
 
-table {
+.simpleCatalog {
     background-color: transparent;
     border-spacing: 0;
     border-collapse: collapse;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 15px;
 }
 
-tbody {
+.simpleCatalog tbody {
     display: table-row-group;
     vertical-align: middle;
     border-color: inherit;
 }
 
-tr {
+.simpleCatalog tr {
     display: table-row;
     vertical-align: inherit;
     border-color: inherit;
 }
 
-.simpleCatalog {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 15px;
-}
 .simpleCatalog td {
     position: relative;
     padding: 0;
 }
 
-img {
+.simpleCatalog img {
     vertical-align: middle;
     border-radius: 4px;
-}
-
-a:hover{
-    background-color: rgba(0, 0, 0, 0.585);
 }
