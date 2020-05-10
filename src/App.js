@@ -1,5 +1,4 @@
 import React from 'react';
-// import ScrollUpButton from "react-scroll-up-button"; 
 import './App.css';
 
 import Content from './catalog_page/content';
