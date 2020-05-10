@@ -7,11 +7,9 @@ export default class Search extends React.Component {
 
     render() {
         return (
-            <div className="wrapper">
-                <input type="text" className="input" 
-                placeholder="What are you looking for?"></input>
+        <div className="wrapper">
+                <input type="text" className="input" placeholder="What are you looking for?"></input>
                 <div className="searchbtn"><i className="fas fa-search"></i></div>
-            </div>
-            )
+        </div>)
     }
 }
