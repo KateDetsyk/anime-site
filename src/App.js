@@ -37,12 +37,12 @@ function App() {
         <Route path='/page4' render={(props) => <Title {...props} id={4} />}/>
         <Route path='/page5' render={(props) => <Title {...props} id={5} />}/>
 
-        <Route path='/page6' render={(props) => <Title {...props} id={7} />}/>
-        <Route path='/page7' render={(props) => <Title {...props} id={8} />}/>
-        <Route path='/page8' render={(props) => <Title {...props} id={9} />}/>
-        <Route path='/page9' render={(props) => <Title {...props} id={10} />}/>
-        <Route path='/page10' render={(props) => <Title {...props} id={11} />}/>
-        <Route path='/page11' render={(props) => <Title {...props} id={12} />}/>
+        <Route path='/page6' render={(props) => <Title {...props} id={6} />}/>
+        <Route path='/page7' render={(props) => <Title {...props} id={7} />}/>
+        <Route path='/page8' render={(props) => <Title {...props} id={8} />}/>
+        <Route path='/page9' render={(props) => <Title {...props} id={9} />}/>
+        <Route path='/page10' render={(props) => <Title {...props} id={10} />}/>
+        <Route path='/page11' render={(props) => <Title {...props} id={11} />}/>
 
         <Route path='/login' component={Login} />
         <Route path='/singup' component={Singup} />
