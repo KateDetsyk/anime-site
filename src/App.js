@@ -9,8 +9,10 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Title from './title_page/title';
 
 import MAnime from './anime-movies/m-anime';
-import Login from './log-in/log-in';
-import Singup from './sing-up/sing-up';
+import Login from './log-in-sing-up/log-in';
+import Singup from './log-in-sing-up/sing-up';
+
+
 
 
 function App() {  
