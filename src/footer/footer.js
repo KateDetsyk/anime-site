@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './footer.css';
-import logo from "../img/footer_img.png";
+import { NavLink } from 'react-router-dom';
 
 export default class Footer extends React.Component {
 
@@ -11,17 +11,15 @@ export default class Footer extends React.Component {
             <div className='footer-left'></div>
             <div className='footer-right'>
                 <ul>
-                    <li><a href='https://github.com/KateDetsyk/anime-site.git'>GitHub</a></li>
-                    <li><a href=''> | About</a></li>
-                    <li><a href=''> | Question</a></li>
-                    <li><a href=''> | Log in</a></li>
-                    <li><a href=''> | Sing up</a></li>
+                    <li><NavLink to="/"> Main Page</NavLink></li>
+                    <li><a href='https://github.com/KateDetsyk/anime-site.git'> | GitHub</a></li>
+                    <li><NavLink to='/login'> | Log in</NavLink></li>
+                    <li><NavLink to='/singup'> | Sing up</NavLink></li>
 
                 </ul>
                 <p>
                     Just an anime site. 
-                    Currently in the development phase.<br></br>
-                    Links and buttons aren't working yet. 
+                    Currently in the development phase.<br></br> 
                 </p>
             </div>
         </div>

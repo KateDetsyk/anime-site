@@ -1,0 +1,71 @@
+.block {
+    width: 880px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    overflow: auto;
+    word-wrap: break-word;
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.emptyHeader {
+    background-color: transparent;
+    top: 0px;
+    padding: 0px 0px 10px 0px;
+}
+
+.xreleaseInfo {
+    float: left;
+    width: 470px;
+    height: 508px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.release-title {
+    color: #157173;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: 500;
+    background-color: transparent;
+}
+
+.line {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 2px solid #d3d3d3;
+    
+}
+
+.xreleaseInfo p {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.xreleaseInfo b{
+    color: #157173;
+    background-color: transparent;
+}
+
+.detail_side {
+    float: left;
+    margin-left: 12px;
+    background-color: transparent;
+}
+
+.detail_pic {
+    border: 3px solid #157173;
+    vertical-align: middle;
+    
+}
